@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:textAlignment="viewEnd"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtmaso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã số"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên bài hát"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtbaihat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHÉN ĐẮNG (REMIX)"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Lời bài hát"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtloibaihat"
+                android:layout_width="269dp"
+                android:layout_height="88dp"
+                android:text="Một ngày anh nhớ,
+                nhớ bóng hình em,
+                    trái tim..."
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tác giả"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txttacgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trương Lê Sơn"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yêu Thích"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:id="@+id/btnthich"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/love" />
+
+                <ImageButton
+                    android:id="@+id/btnkhongthich"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/unlike" />
+
+
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
